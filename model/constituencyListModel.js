@@ -4,9 +4,7 @@ const constituencySchema = new mongoose.Schema({
     constituencyId: {
         type: String
     },
-    password: {
-        type: String
-    },
+    
     name: {
         type: String,
     }

@@ -8,7 +8,7 @@ router.get('/', (req, res) => {
 
 router.post('/',(req, res) => {
     const {constituencyId , name , password} = req.body
-    db.create({constituencyId ,  name , password})
+    db.create({constituencyId ,  name })
     res.redirect('/constituencyEntry')
 })
 
